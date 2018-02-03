@@ -113,19 +113,25 @@ Public Class 批量读取文件名
 
 
         With vbexcel
-            If vbexcel.ActiveWorkbook IsNot Nothing Then
-                vbworkbook = .Workbooks.Add()
 
-            Else : vbworkbook = vbexcel.ActiveWorkbook
+            'If vbexcel.ActiveWorkbook IsNot Nothing Then
+            '    vbworkbook = .Workbooks.Add()
 
-            End If
+            'Else : vbworkbook = vbexcel.ActiveWorkbook
+
+            'End If
+            'With vbworkbook
+            '    If vbexcel.ActiveSheet Is Nothing Then
+            '        'vbworksheet = .Worksheets.Add()
+            '        vbworksheet = .Worksheets.Add()
+            '        vbworksheet.Activate()
+            '    Else : vbworksheet = vbexcel.ActiveSheet
+            '    End If
+            vbworkbook = .Workbooks.Add()
             With vbworkbook
-                If vbexcel.ActiveSheet Is Nothing Then
-                    'vbworksheet = .Worksheets.Add()
-                    vbworksheet = .Worksheets.Add()
-                    vbworksheet.Activate()
-                Else : vbworksheet = vbexcel.ActiveSheet
-                End If
+                vbworksheet = .Worksheets.Add()
+                vbworksheet.Activate()
+
                 With vbworksheet
                     .Cells(2, 1) = "代号"
                     .Cells(2, 2) = "名称"
