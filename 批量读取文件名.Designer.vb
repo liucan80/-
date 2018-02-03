@@ -30,6 +30,8 @@ Partial Class 批量读取文件名
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.statuslabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -45,7 +47,7 @@ Partial Class 批量读取文件名
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(23, 400)
+        Me.Button1.Location = New System.Drawing.Point(23, 395)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 21)
         Me.Button1.TabIndex = 1
@@ -74,7 +76,7 @@ Partial Class 批量读取文件名
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(136, 400)
+        Me.Button2.Location = New System.Drawing.Point(136, 395)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 21)
         Me.Button2.TabIndex = 4
@@ -99,11 +101,33 @@ Partial Class 批量读取文件名
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "当前目录："
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(25, 439)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(35, 12)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Tag = ""
+        Me.Label4.Text = "状态:"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'statuslabel
+        '
+        Me.statuslabel.AutoSize = True
+        Me.statuslabel.Location = New System.Drawing.Point(66, 439)
+        Me.statuslabel.Name = "statuslabel"
+        Me.statuslabel.Size = New System.Drawing.Size(77, 12)
+        Me.statuslabel.TabIndex = 8
+        Me.statuslabel.Text = "请选择文件夹"
+        '
         '批量读取文件名
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(446, 456)
+        Me.ClientSize = New System.Drawing.Size(446, 551)
+        Me.Controls.Add(Me.statuslabel)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
@@ -125,5 +149,7 @@ Partial Class 批量读取文件名
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents statuslabel As System.Windows.Forms.Label
 
 End Class

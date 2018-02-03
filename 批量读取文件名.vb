@@ -101,6 +101,13 @@ Public Class 批量读取文件名
 
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If br1.DirectoryPath = "" Then
+            statuslabel.Text = "选择的文件夹为空"
+            Exit Sub
+        Else
+            statuslabel.Text = br1.DirectoryPath + "\n正在输出"
+        End If
+
         Try
             vbexcel = GetObject(, "excel.application")
 
@@ -174,7 +181,12 @@ Public Class 批量读取文件名
         'Dim temp As String
         'temp = FolderBrowserDialog1.SelectedPath
         'Dim temp1 As String = Split(temp, "\")(UBound(Split(temp, "\")))
-        vbworkbook.SaveAs(GetSavePath(br1.DirectoryPath))
+        Try
+            vbworkbook.SaveAs(GetSavePath(br1.DirectoryPath))
+            statuslabel.Text = "输出完成"
+        Catch ex As Exception
+            statuslabel.Text = "未能保存Excel表格,请检查目录"
+        End Try
 
     End Sub
     Private Function GetSavePath(ByVal path As String)
