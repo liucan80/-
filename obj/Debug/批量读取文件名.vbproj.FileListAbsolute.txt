@@ -1,0 +1,28 @@
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.exe.config
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.exe
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.pdb
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.xml
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\WindowsApplication1.Resources.resources
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.vbproj.GenerateResource.Cache
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.exe
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.xml
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.pdb
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\Interop.Office.dll
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\Interop.VBIDE.dll
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.vbproj.ResolveComReference.cache
+d:\Users\luna\Documents\Visual Studio 2012\Projects\批量读取文件名\批量读取文件名\obj\Debug\WindowsApplication1.批量读取文件名.resources
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.exe.config
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\Interop.Office.dll
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.vbproj.ResolveComReference.cache
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.exe
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.xml
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.pdb
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.exe
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.pdb
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\批量读取文件名.xml
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\solidworkstools.dll
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.vbprojResolveAssemblyReference.cache
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\WindowsApplication1.批量读取文件名.resources
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\WindowsApplication1.Resources.resources
+Z:\暂存\批量读取文件名\批量读取文件名\obj\Debug\批量读取文件名.vbproj.GenerateResource.Cache
+Z:\暂存\批量读取文件名\批量读取文件名\bin\Debug\ClassLibrary1.dll
